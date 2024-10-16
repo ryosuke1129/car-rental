@@ -61,7 +61,7 @@ def rental_date(replyToken):
                             "type": "datetimepicker",
                             "label": "日時を選択する",
                             "data": "rental-date",
-                            "mode": "date"
+                            "mode": "datetime"
                         }
                     ]
                 }
@@ -147,6 +147,12 @@ def return_car(replyToken, r_time):
                             "type": "message",
                             "label": "翌日",
                             "text": "翌日"
+                        },
+                        {
+                            "type": "datetimepicker",
+                            "label": "日時を選択する",
+                            "data": "releaseß-date",
+                            "mode": "datetime"
                         }
                     ]
                 }
